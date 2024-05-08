@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <div><!-- Ensure box rows behave properly -->
+        <div class="Box-row">
+            <h3>…or create a new repository on the command line</h3>
+
+            <div class="copyable-terminal">
+                <div class="copyable-terminal-button">
+                    <clipboard-copy for="empty-setup-new-repo-echo" aria-label="Copy to clipboard" class="btn btn-sm zeroclipboard-button" data-ga-click="Empty repo, click, Clicked copy new repo commands" data-hydro-click="{&quot;event_type&quot;:&quot;repository_empty_state.click&quot;,&quot;payload&quot;:{&quot;event_target&quot;:&quot;COPY_COMMANDS_FOR_CREATING_REPO&quot;,&quot;repository_context&quot;:&quot;USER&quot;,&quot;originating_url&quot;:&quot;https://github.com/cinewva/IntroToJava&quot;,&quot;user_id&quot;:138969056}}" data-hydro-click-hmac="b1589b0b47d06d0c75ec4a3713d0fe2badd9f0dcf1c3889d9e7ae2cd5c5aec67" tabindex="0" role="button">
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
+                            <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+                        </svg>
+                    </clipboard-copy>
+                </div>
+                <pre id="empty-setup-new-repo-echo" class="copyable-terminal-content f5"><span class="user-select-contain">echo "# IntroToJava" &gt;&gt; README.md</span>
+<span class="user-select-contain">git init</span>
+<span class="user-select-contain">git add README.md</span>
+<span class="user-select-contain">git commit -m "first commit"</span>
+<span class="user-select-contain">git branch -M main</span>
+<span class="user-select-contain">git remote add origin <span data-targets="git-clone-help.helpTexts">https://github.com/cinewva/IntroToJava.git</span></span>
+<span class="user-select-contain mb-0">git push -u origin main</span></pre>
+            </div>
+        </div>
+
+        <div class="Box-row">
+            <h3>…or push an existing repository from the command line</h3>
+
+            <div class="copyable-terminal">
+                <div class="copyable-terminal-button">
+                    <clipboard-copy for="empty-setup-push-repo-echo" aria-label="Copy to clipboard" class="btn btn-sm zeroclipboard-button" data-ga-click="Empty repo, click, Clicked copy existing repo commands" data-hydro-click="{&quot;event_type&quot;:&quot;repository_empty_state.click&quot;,&quot;payload&quot;:{&quot;event_target&quot;:&quot;COPY_COMMANDS_FOR_UPLOADING_REPO&quot;,&quot;repository_context&quot;:&quot;USER&quot;,&quot;originating_url&quot;:&quot;https://github.com/cinewva/IntroToJava&quot;,&quot;user_id&quot;:138969056}}" data-hydro-click-hmac="75e7a06cc94d05ba4f0eef9c64d4b1e5ee50131b30a32c926a90f6b777962af6" tabindex="0" role="button">
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
+                            <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+                        </svg>
+                    </clipboard-copy>
+                </div>
+                <pre id="empty-setup-push-repo-echo" class="copyable-terminal-content f5"><span class="user-select-contain">git remote add origin <span data-targets="git-clone-help.helpTexts">https://github.com/cinewva/IntroToJava.git</span></span>
+<span class="user-select-contain">git branch -M main</span>
+<span class="user-select-contain">git push -u origin main</span></pre>
+            </div>
+        </div>
+    </div>
 </head>
 <body>
-$END$
+
 </body>
 </html>
